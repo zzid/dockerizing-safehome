@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin : 3vh auto;
+}
+
+.form {
+    min-width: 20vw;
+    width: 25vw;
+    display: center;
+}
+
+@media only screen and (max-width: 770px) { /* for mobile */
+    .container {
+      width: 40%;
+      height: 40%;
+    }
+}

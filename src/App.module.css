@@ -1,0 +1,28 @@
+html{ height: 100%;}
+body {
+    background-color: rgb(250,250,250);
+    font-family: 'Jua','Russo One','sans-serif';
+    height: 100%;
+    /* background : rgb(25, 31, 44); */
+    /* color : #eeeeee; */
+}
+
+.explain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#a8a8a8;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (max-width : 770px) {
+    .container {
+        width: 100%;
+    }
+}
