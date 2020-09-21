@@ -3,7 +3,8 @@ import axios from 'axios';
 var keys = require('./keys.json')
 const seoul_key = keys['seoul_key']
 
-const baseURL = "https://django-react-safehome.herokuapp.com/api/"
+// const baseURL = "https://django-react-safehome.herokuapp.com/api/"
+const baseURL = process.env.REACT_APP_API_HOST
 
 export const fetchCategoryData = async (category) =>{
     try{
